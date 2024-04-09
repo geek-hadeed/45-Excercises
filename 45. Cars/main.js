@@ -7,7 +7,7 @@ function make_car(manufacturer, model, ...options) {
     };
     return car;
 }
-console.log(make_car("BMW", "X5", { color: "red" }, { features: ["optionalFeature", "sunroof"] }));
+console.log(make_car("Toyota", "Supra", { color: "red" }, { features: ["Navigation", "Nitro"] }));
 console.log(make_car("Changan", "Alsvin"));
-console.log(make_car("Toyota", "Corolla"));
+console.log(make_car("Toyota", "Revo"));
 export {};
