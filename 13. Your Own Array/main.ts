@@ -4,7 +4,11 @@ of statements about these items, such as “I would like to own a Honda motorcyc
 
 let fav: string[] =[ "Fortuner" , "Rocco" , "GMC" ]
 
-console.log("I have A 70cc Bike")
-console.log(`I want to own a "${fav[0]}" `)
-console.log(`I love to own a "${fav[1]}" `)
-console.log(`Its Great to own a "${fav[2]}" `)
+for(let favs of fav)
+{
+    console.log(`I want to own a "${favs}" `)
+}
+
+// console.log(`I want to own a "${fav[0]}" `)
+// console.log(`I love to own a "${fav[1]}" `)
+// console.log(`Its Great to own a "${fav[2]}" `)

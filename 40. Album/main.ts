@@ -3,9 +3,10 @@
 
 function make_album(Artist: string , title: string)
 {
-    let album = {Artist , title}
-    return album
+    const album: any =  {Artist, title};
+    return album;
 }
+
 
 console.log(make_album('Muzammil','Heeriye'))
 console.log(make_album('Talha Anjum','4 Am In Karachi'))

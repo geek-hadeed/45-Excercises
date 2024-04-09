@@ -47,9 +47,9 @@ while(guest.length > 2)
     console.log(`Sorry Mr. ${remove_guest} you Are Not Invited On Dinner`)
 }
 
-for(let i=0 ; i<guest.length ; i++)
+for(let guests of guest)
 {
-    console.log( `\n HEY ${guest[i]} , \n You Are Still Invited on Dinner At my Place \n Thankyou` )
+    console.log( `\n HEY ${guests} , \n You Are Still Invited on Dinner At my Place \n Thankyou` )
 }
 
 guest.splice(0 , 2)

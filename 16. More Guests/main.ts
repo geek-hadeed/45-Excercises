@@ -7,9 +7,8 @@
 
 let guest: string[] = ["Ameen", "Aieyan", "Shayan", "Hassnain", "Qadir"];
 
-console.log(
-  "Tomomorrow i held a dinner at my home for some of my friends the list of guests Invitations are: "
-);
+
+// console.log("Tomomorrow i held a dinner at my home for some of my friends the list of guests Invitations are: ");
 
 /* for(let i=0 ; i<guest.length ; i++)
 {

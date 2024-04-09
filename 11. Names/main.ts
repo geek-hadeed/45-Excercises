@@ -5,7 +5,14 @@ person’s name by accessing each element in the list, one at a time */
 
 let names: string[]= ["Ameen" , "Shayan" , "Ayaan" , "Humaiz"]
 
-console.log(names[0])
-console.log(names[1])
-console.log(names[2])
-console.log(names[3])
+
+for(let name of names){
+    console.log(name)
+}
+
+
+
+// console.log(names[0])
+// console.log(names[1])
+// console.log(names[2])
+// console.log(names[3])
